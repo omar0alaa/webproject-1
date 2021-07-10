@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.sidebar
+{
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    border: 1px solid #c5bfbf;
+}
+.top-icon
+{
+    margin-top: 20px;
+}
+.top-icon span
+{
+    padding: 15px;
+}
+.top-icon span i
+{
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border-radius: 50px;
+}
+.navbar
+{
+    margin-top: 100px;
+}
+.navbar ul
+{
+    list-style: none;
+}
+
+.nav-link
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.nav-link a
+{
+    text-decoration: none;
+    color: #00a200;
+
+    text-transform: uppercase;
+}
+
+.content
+{
+    margin-left: 200px;
+    padding: 50px;
+    background-color: rgb(171,239,210);
+    height: 320px;
+}
+.content table
+{
+width: 100%;
+}
+.inner-content
+{
+    border: 1px solid #cecccc;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: white;
+}
+.heading {
+    border: 1px solid #cecccc;
+    padding: 10px;
+}
+.heading h3
+{
+    float: left;
+}
+.txt-search
+{
+    margin: 10px 10px 10px 280px;
+    padding: 10px 225px 10px 10px;
+}
+.clmn
+{
+    text-align: right;
+
+}
+.txt
+{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 100px 10px 10px;;
+    font-size: 16px;
+}
+.btn
+{
+    padding: 13px 25px 13px 25px;
+    background-color: white;
+    border: 0px;
+}
+.btn-main
+{
+    padding: 13px 25px 13px 25px;
+    background-color: black;
+    border: 0px;
+    color: white;
+}
+.manageuser-content
+{
+    border: 1px solid #cecccc;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: white;
+
+}
+.manageuser-content table
+{
+    margin-left: auto; margin-right: auto; padding-bottom: 20px;width: 100%;
+    text-align: center;
+}
+.manageuser-content table th{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.manageuser-content table td{
+    font-size: 17px;
+    padding: 10px;
+}
+
+#tablestart{
+	background-color: #abefd2
+}
+
+h6{
+	 text-align:right;
+}
+.info {
+    margin-left: 300px;
+    border-radius: 10px;
+    height: 18px
+}
+.btn:hover{
+
+    color:black;
+    background-color:darkorange;
+    transition: .5s;
+}

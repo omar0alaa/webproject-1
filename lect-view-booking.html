@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    
+    <!-- header containing profile pic and search bar  -->
+    <div class="header">
+        <input type="text" placeholder="Search">
+        <img src="imgs/user.png" alt="">
+    </div>
+
+    <!-- side bar -->
+    <div class="sidebar">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+
+    <!-- main container for the content -->
+    <div class="main-container">
+        <h2>View Booking</h2>
+
+        <!-- CONTENT GOES HERE  -->
+        <div>
+            <form action="/editBooking.php">
+
+                <!--This should be changed dynamically depending on the actual status-->
+                <h4>Booking Status: Pending</h4> 
+                <hr>
+                <label for="purpose">Purpose of booking: </label>
+                <textarea name="purpose" id="purpose"  readonly>
+                    Will be used to deliver a lecture for course SECJ4323
+                </textarea>
+                <label for="time-start">Time Start</label>
+                <input type="time" name="time-start" id="time-start" min="" value="13:30" readonly>
+                <label for="time-end">Time End</label>
+                <input type="time" name="time-end" id="time-end" min="" value="15:45" readonly>
+
+                <!-- The following div is the grid of venues, should only appear after time selection -->
+                <hr>
+                <div id="venue-choice">
+                    <label for="venue">Chosen Venue</label>
+                    <!-- grid of venues, each venue is represented by a checkbox: -->
+                    <textarea name="venue" id="venue" readonly>BK2: N28A, FOURTH FLOOR</textarea>
+                </div>
+                <hr>
+
+                <!-- The options given will vary depending on the status of the application -->
+                <input type="submit" value="Edit" name="edit">
+                <input type="submit" value="Cancel Booking" name="cancel">
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
