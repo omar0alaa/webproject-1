@@ -137,7 +137,7 @@ h6{
 	 text-align:right;
 }
 .info {
-    margin-left: 300px;
+    margin-left: 50px;
     border-radius: 10px;
     height: 18px
 }
@@ -146,4 +146,11 @@ h6{
     color:black;
     background-color:darkorange;
     transition: .5s;
+}
+.btn {
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 15px;
+    width: 150px;
+    background-color: rgb(171,239,210);
 }
