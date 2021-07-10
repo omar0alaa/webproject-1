@@ -22,7 +22,7 @@ if ($_SESSION["LEVEL"] == "Admin"){ ?>
 <div class="sidebar">
 
     <div class="top-icon">
-        <a href="#"><span><i class="fas fa-user"></i></span></a>
+        <a href="My Profile.php"><span><i class="fas fa-user"></i></span></a>
         <a href="#"><span><i class="fas fa-bars"></i></span></a>
         <a href="#"><span><i class="fas fa-cog"></i></span></a>
     </div>
